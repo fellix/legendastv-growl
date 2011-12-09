@@ -1,6 +1,21 @@
 = legendastv-growl
 
-Description goes here.
+Simples cliente que usa o legendastv-crawler (https://github.com/fellix/legendastv-crawler) para notificar os destaques na home do site http://legendas.tv
+
+== Requirementos
+
+* Ruby 1.9.3
+* Bundler (http://gembundler.com/)
+* Growl (http://growl.info/)
+* MacOS X :)
+
+== Uso
+
+  git clone http://github.com/fellix/legendastv-growl
+  bundle install
+  ruby runner.rb
+  
+E seja notificado quando uma nova legenda chegar ao site
 
 == Contributing to legendastv-growl
  
@@ -11,6 +26,10 @@ Description goes here.
 * Commit and push until you are happy with your contribution
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
 * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+== TODO
+
+* Adicionar parametro de pesquisa por determinada legenda.
 
 == Copyright
 
