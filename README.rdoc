@@ -5,8 +5,8 @@ Simples cliente que usa o legendastv-crawler (https://github.com/fellix/legendas
 == Requirementos
 
 * Ruby 1.9.3
-* Bundler (http://gembundler.com/)
-* Growl (http://growl.info/)
+* Bundler (http://gembundler.com)
+* Growl (http://growl.info)
 * MacOS X :)
 
 == Uso
@@ -30,6 +30,7 @@ E seja notificado quando uma nova legenda chegar ao site
 == TODO
 
 * Adicionar parametro de pesquisa por determinada legenda.
+* Customizar via parametro o tempo de espera dos updades
 
 == Copyright
 

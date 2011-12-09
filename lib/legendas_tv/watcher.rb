@@ -13,13 +13,12 @@ module LegendasTV
     end
     
     def run
-      runner_thread = Thread.new do
-        while true do
+      Thread.new do
+        while true do 
           watch_changes
-          sleep 300
+          sleep 150
         end
-      end
-      runner_thread.join
+      end.join
     end
     
     protected
