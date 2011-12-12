@@ -32,7 +32,7 @@ module LegendasTV
       actual.each do |subtitle|
         found = false
         array.each do |old_subtitile|
-          if old_subtitile == subtitle
+          if old_subtitile[:title] == subtitle[:title]
             found = true
           end
         end
